@@ -68,12 +68,37 @@
         /* border: 1px solid black; */
       }
 
-      @@media (max-width: 500px) {
-        header {
-          width: 20px;
-          overflow: hidden;
+      @media (max-width: 700px) {
+        header div {
+          margin-left: 0px;
+          width: 90%;
+          /* border: 1px solid black; */
+          position: absolute;
+          left: 10px;
         }
 
+        header div img {
+          width: 100%;
+        }
+
+        form {
+          position: absolute;
+          left: 1%;
+          width: 90%;
+          height: 20%;
+          /* border: 1px solid black; */
+        }
+
+        .buttonContainer {
+          width: 80%;
+          position: absolute;
+          left: 10px;
+          margin-left: 35px;
+        }
+
+        form input#searchBox {
+          height: 20%;
+        }
       }
     </style>
   </head>
